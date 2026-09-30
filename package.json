@@ -1,0 +1,17 @@
+{
+  "name": "idlix-api-vercel",
+  "version": "3.0.0",
+  "description": "IDLIX Scraper API migrated to Vercel Serverless",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "@scalar/express-api-reference": "^0.18.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "node-fetch": "^2.7.0"
+  }
+}
